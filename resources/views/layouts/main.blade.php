@@ -4,20 +4,21 @@
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
 </script> <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> <script
-    nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
+nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"> </script>
 <link rel="stylesheet" href="{{ asset('css/main.css') }}"> <title>@yield('title') </title> </head> <body>
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> 
-        <div class="collapse navbar-collapse" id="navbar"> 
-        <a href="../welcome.blade.php" class="navbar-brand">
-        <img src="img/events/MicrosoftTeams-image.png" alt="LOGO" srcset="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-
-
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> 
+            <div class="collapse navbar-collapse" id="navbar"> 
+                <a href="../welcome.blade.php" class="navbar-brand">
+                    <img src="img/events/MicrosoftTeams-image.png" alt="LOGO" srcset="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+            </div>
+            
+            
             <ul class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="/">Eventos</a>
@@ -41,8 +42,8 @@
 
             </ul>
         </div>
-        </div>
-    </nav>
+    </div>
+</nav>
 </header>
 <main>
     

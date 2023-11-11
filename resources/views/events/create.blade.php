@@ -2,7 +2,7 @@
 @section('title','Criar Evento')
 @section('content')
 <div id="event-create-container" class="container p-5 my-5 border">
-     <h1>Crie um evento</h1> 
+     <h1>Crie seu evento</h1> 
      <form action="/events" method="POST" enctype="multipart/form-data">
         @csrf
         <div class="form-group">
@@ -14,7 +14,7 @@
             <input type="text" class="form-control" id="title" name="title" placeholder="Nome do evento">
         </div>
         <div class="form-group">
-            <label for="date">Data do evento</label>
+            <label for="date">Data do evento:</label>
             <input type="date" class="form-control" id="date" name="date" placeholder="Nome do evento">
         </div>
         <div class="form-group">
@@ -32,7 +32,7 @@
             <label for="title">Descrição:</label>
            <textarea name="description" id="description"class="form-control" placeholder="descrição do evento"></textarea>
         </div>
-        <input type="submit" class="btn btm-primary" value="Criar Evento">
+        <input type="submit" class=" btn-input " value="Criar Evento">
      </form>
 </div>
  @endsection
